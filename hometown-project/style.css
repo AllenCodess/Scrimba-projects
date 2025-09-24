@@ -2,11 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(https://images.unsplash.com/photo-1677678203141-7c4ac3013975?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(italy.jpg);
     background-size: cover;
-    height: 900px;
     padding: 0px;
-    margin: 0px;
+    margin-top: 0px;
+    height: 900px;
+    width: 100%;
 
 }
 
@@ -18,6 +19,7 @@ body {
 .hero-text {
     font-size: 90px;
     margin-top: 300px;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, .7);;
 }
 
 .p-text {
@@ -36,12 +38,15 @@ h2 {
     justify-content: space-around;
     align-items: center;
     font-weight: bold;
+
 }
 
 .Colosseum, .rome, .venice {
     /* border: solid 2px black; */
+    border-radius: 20px;
     padding: 2px;
 }
+
 
 
 .cities {
@@ -56,19 +61,25 @@ h2 {
 .footer {
     margin-bottom: 100px;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     background-color: rgb(141, 177, 177);
     width: 400px;
     margin-left: auto;
     margin-right: auto;
     font-weight: bold;
+    border-radius: 20px;
+    border: solid 2px black;
+    padding: 20px 10px;
     
     
 }
 
-.img {
+.img-leo img { /* This selector needed to be the class AND the tag because it wasn't being selected properly */
     padding-right: 20px;
     padding-bottom: 0px;
+    border-radius: 750px;
+
+
 }
 
 #tour {
