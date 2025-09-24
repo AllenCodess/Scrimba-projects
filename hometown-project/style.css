@@ -1,0 +1,77 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1677678203141-7c4ac3013975?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    height: 900px;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body {
+     font-family: "Italiana", sans-serif;
+     background: linear-gradient(lightblue, white)
+}
+
+.hero-text {
+    font-size: 90px;
+    margin-top: 300px;
+}
+
+.p-text {
+    margin-top: 0px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.mid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+}
+
+.Colosseum, .rome, .venice {
+    /* border: solid 2px black; */
+    padding: 2px;
+}
+
+
+.cities {
+    font-size: 30px;
+}
+
+.city-img {
+    height: 350px;
+    border-radius: 12px;
+}
+
+.footer {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(141, 177, 177);
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    
+    
+}
+
+.img {
+    padding-right: 20px;
+    padding-bottom: 0px;
+}
+
+#tour {
+    text-align: center;
+    margin-top: 200px;
+}
