@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin: 40px auto; 
+    padding: 40px;
+    background-color: rgb(54, 54, 201);
+    border-radius: 20px;
+    background-image: url("https://media.cnn.com/api/v1/images/stellar/prod/160204101907-nba-slam-dunk-5.jpg?q=w_4725,h_2658,x_0,y_0,c_fill");
+    background-size: cover;
+}
+
+h1 {
+    justify-content: center;
+    margin: 25px auto;
+    padding-right: 50px;
+    padding-left: 10px;
+    background-color: aliceblue;
+    width: 50px;
+    border-radius: 20px;
+}
+
+.home, .away {
+    font-family: "Lilita One", sans-serif;
+}
+
+#home-score, #away-score {
+
+    justify-content: center;
+    margin: 0 auto;
+    width: 70px;
+    font-size: 65px;
+    color: red;
+    background-color: black;
+    padding: 0 40px;
+    font-family: "Bitcount Grid Double", system-ui;
+    border-radius: 10px;
+}
+
+.home-plus, .away-plus
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px; /*This is the space between the numbers and the actual score */
+    color: red;
+}
+
+.plustwo {
+    margin-left: 6px;
+    margin-right: 6px;
+    
+}
+
+.plusone, .plustwo, .plusthree {
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+     font-family: "Gloria Hallelujah", cursive;
+     font-weight: bold;
+     background-color: lightgreen;
+     color: rgb(1, 95, 1);
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Basketball Scoreboard</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+            </head>
+    <body>
+        <div class="container">
+            <div class="home">
+                <h1> HOME </h1>
+                    <p id="home-score">0</p>
+                    <div class="home-plus">
+                        <button onclick="addOneHome()" class="plusone">+1</button>
+                        <button onclick="addTwoHome()" class="plustwo">+2</button>
+                        <button onclick="addThreeHome()" class="plusthree">+3</button>
+                    </div>
+            </div>
+            <div class="away">
+                <h1> AWAY </h1>
+                    <p id="away-score"> 0</p>
+                        <div class="away-plus">
+                            <button onclick="addOneAway()" class="plusone">+1</button>
+                            <button onclick="addTwoAway()" class="plustwo">+2</button>
+                            <button onclick="addThreeAway()" class="plusthree">+3</button>
+                    </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
